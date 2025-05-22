@@ -25,7 +25,7 @@ export default function GeneralInformation() {
             <FormControl>
               <Select>
                 <SelectTrigger className="w-40">
-                  <SelectValue placeholder="Escolha uma opção..."/>
+                  <SelectValue placeholder="Selecione..."/>
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="physical">Pessoa Física</SelectItem>
