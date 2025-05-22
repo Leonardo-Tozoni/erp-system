@@ -1,18 +1,18 @@
 # ERP System – Frontend
 
-Este é o projeto frontend do nosso sistema ERP para empresas, desenvolvido para facilitar e automatizar processos de gestão empresarial.
+This is the frontend project for our ERP system for companies, designed to streamline and automate business management processes.
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-- [Bun](https://bun.sh/) – Ambiente de execução ultrarrápido para JavaScript/TypeScript
-- [Next.js](https://nextjs.org/) – Framework moderno para React
-- [TypeScript](https://www.typescriptlang.org/) – Superset de JavaScript com tipagem
-- [Tailwind CSS](https://tailwindcss.com/) – Utilitário CSS para estilização rápida
-- [shadcn/ui](https://ui.shadcn.com/) – Componentes acessíveis e estilizados com Tailwind
+- [Bun](https://bun.sh/) – Ultra-fast JavaScript/TypeScript runtime
+- [Next.js](https://nextjs.org/) – Modern React framework
+- [TypeScript](https://www.typescriptlang.org/) – Typed superset of JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [shadcn/ui](https://ui.shadcn.com/) – Accessible components styled with Tailwind
 
-## 📦 Requisitos
+## 📦 Requirements
 
-Antes de começar, você precisa ter o [Bun](https://bun.sh/docs/installation) instalado:
+Before getting started, make sure you have [Bun](https://bun.sh/docs/installation) installed:
 
 ```bash
 curl -fsSL https://bun.sh/install | bash
