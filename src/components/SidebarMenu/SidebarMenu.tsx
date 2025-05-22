@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 import { Card, CardContent } from "../ui/card";
 
-export default function Header () {
+export default function SidebarMenu () {
   return (
     <Card className="fixed top-0 left-0 h-screen w-64 z-50 rounded-none shadow-none border-t border-gray-200">
       <CardContent className="p-5 flex flex-col items-center h-full">
@@ -21,7 +21,7 @@ export default function Header () {
               </Link>
             </Button>
             <Button variant="ghost" className="gap-2 w-full justify-start" asChild>
-              <Link href="/customers">
+              <Link href="/customer">
                 <BookPlus size={18}/>
                 Cadastro de Clientes
               </Link>
