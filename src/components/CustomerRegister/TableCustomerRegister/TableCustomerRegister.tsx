@@ -56,7 +56,10 @@ export default function TableCustomerRegister() {
         </TableHeader>
         <TableBody className="block h-[50vh] overflow-y-auto">
           <TableRow className="border-b table-row">
-            <TableCell colSpan={IColumns.length} className="text-center border-r last:border-r-0">
+            <TableCell
+              colSpan={IColumns.length}
+              className="text-center text-gray-500 flex items-center justify-center h-[50vh] p-0"
+            >
               Nenhum dado disponível
             </TableCell>
           </TableRow>
