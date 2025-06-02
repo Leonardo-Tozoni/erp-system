@@ -13,28 +13,28 @@ export default function ContactInformation() {
         render={() => (
           <div>
             <div className="flex gap-4 justify-between">
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Telefone Principal</FormLabel>
               <FormControl>
-                <Input className="w-80" placeholder="Digite o telefone..." />
+                <Input className="w-full" placeholder="Digite o telefone..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>WhatsApp</FormLabel>
               <FormControl>
-                <Input className="w-110" placeholder="Digite o whatsapp..." />
+                <Input className="w-full" placeholder="Digite o whatsapp..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>E-mail</FormLabel>
               <FormControl>
-                <Input className="w-200" placeholder="Digite o e-mail..." />
+                <Input className="w-full" placeholder="Digite o e-mail..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Pessoa de Contato</FormLabel>
               <FormControl>
-                <Input className="w-55" placeholder="Digite o nome da pessoa do contato..." />
+                <Input className="w-full" placeholder="Digite o nome da pessoa do contato..." />
               </FormControl>
             </FormItem>
             </div>

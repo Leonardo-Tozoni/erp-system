@@ -8,7 +8,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR">
       <body>
         <SidebarMenu />
-        <main style={{ marginLeft: 256 }}> {/* 256px = largura do Header */}
+        <main style={{ marginLeft: 256 }}>
           {children}
         </main>
       </body>

@@ -18,13 +18,13 @@ export default function GeneralInformation() {
         name={"Nome do Cliente"}
         render={() => (
           <div>
-            <div className="flex justify-between">
-            <FormItem>
+            <div className="flex justify-between gap-4">
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Tipo de Cliente</FormLabel>
               <FormControl>
                 <Select>
-                  <SelectTrigger className="w-50">
-                    <SelectValue placeholder="Selecione..."/>
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Selecione..." />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="physical">Pessoa Física</SelectItem>
@@ -33,31 +33,31 @@ export default function GeneralInformation() {
                 </Select>
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Nome Completo / Razão Social</FormLabel>
               <FormControl>
-                <Input className="w-110" placeholder="Digite o nome do cliente..." />
+                <Input className="w-full" placeholder="Digite o nome do cliente..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Nome Fantasia (se for Jurídica)</FormLabel>
               <FormControl>
-                <Input className="w-70" placeholder="Digite o nome fantasia..." />
+                <Input className="w-full" placeholder="Digite o nome fantasia..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>CPF / CNPJ</FormLabel>
               <FormControl>
-                <Input className="w-80" placeholder="Digite o CPF/CNPJ..." />
+                <Input className="w-full" placeholder="Digite o CPF/CNPJ..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Inscrição Estadual</FormLabel>
               <FormControl>
-                <Input className="w-55" placeholder="Digite sua IE..." />
+                <Input className="w-full" placeholder="Digite sua IE..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Data de Cadastro</FormLabel>
               <FormControl>
                 <DatePicker selected={new Date()} disabled />

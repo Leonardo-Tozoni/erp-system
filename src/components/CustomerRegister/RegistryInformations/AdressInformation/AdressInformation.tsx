@@ -13,28 +13,28 @@ export default function AdressInformation() {
         render={() => (
           <div>
             <div className="flex gap-4 justify-between">
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>CEP</FormLabel>
               <FormControl>
-                <Input className="w-80" placeholder="Digite o CEP..." />
+                <Input className="w-full" placeholder="Digite o CEP..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Endereço</FormLabel>
               <FormControl>
-                <Input className="w-200" placeholder="Digite o endereço completo..." />
+                <Input className="w-full" placeholder="Digite o endereço completo..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Cidade</FormLabel>
               <FormControl>
-                <Input className="w-110" placeholder="Digite a cidade..." />
+                <Input className="w-full" placeholder="Digite a cidade..." />
               </FormControl>
             </FormItem>
-            <FormItem>
+            <FormItem className="w-full sm:w-[48%]">
               <FormLabel>Estado</FormLabel>
               <FormControl>
-                <Input className="w-55" placeholder="Digite o Estado..." />
+                <Input className="w-full" placeholder="Digite o Estado..." />
               </FormControl>
             </FormItem>
             </div>
