@@ -30,7 +30,7 @@ export default function CustomerRegister() {
                 <p className="py-8 font-semibold text-5xl">Clientes</p>
                 <Drawer>
                   <DrawerTrigger asChild>
-                    <Button variant="default">Novo Cliente</Button>
+                    <Button variant="default" className="cursor-pointer">Novo Cliente</Button>
                   </DrawerTrigger>
                   <DrawerContent className="h-[50vh]">
                     <DrawerTitle className="pb- text-center text-lg">Cadastro de Cliente</DrawerTitle>
@@ -67,7 +67,7 @@ export default function CustomerRegister() {
                 <FormControl>
                   <div className="flex items-center gap-2">
                     <Input placeholder="Pesquise aqui..." className="w-260" />
-                    <Button>
+                    <Button className="cursor-pointer" variant="outline">
                       <SearchIcon />
                     </Button>
                   </div>
