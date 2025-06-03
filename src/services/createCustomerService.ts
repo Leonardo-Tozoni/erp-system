@@ -20,5 +20,5 @@ export interface ICreateCustomerParams {
 }
 
 export async function createCustomer(params: ICreateCustomerParams): Promise<void> {
-  return api.post("/api/Customer/AddCustomer", params, {paramsSerializer})
+  return api.post("Customer/AddCustomer", params, { paramsSerializer });
 }

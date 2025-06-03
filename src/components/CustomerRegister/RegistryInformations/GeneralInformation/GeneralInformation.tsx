@@ -4,13 +4,14 @@ import { DatePicker } from "@/components/shared/DatePicker";
 import { Form, FormControl, FormField, FormItem, FormLabel } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useForm } from "react-hook-form";
+import { FieldValues, UseFormReturn } from "react-hook-form";
 
+interface GeneralInformationProps {
+  form: UseFormReturn<FieldValues> | null;
+}
 
-export default function GeneralInformation() {
-
-  const form = useForm();
-  
+export default function GeneralInformation({ form }: GeneralInformationProps) {
+  if (!form) return null;
   return (
     <div style={{ width: "100%", height: "20%", boxSizing: "border-box", overflow: "auto" }}>
       <Form {...form}>
